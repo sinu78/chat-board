@@ -1,10 +1,23 @@
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .App {
-  text-align: center;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  height: 100vh;
+  position: relative;
+  background: rgba(243, 243, 243, 1)
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+button:disabled{
+  background: #ccc
 }
 
 @media (prefers-reduced-motion: no-preference) {
